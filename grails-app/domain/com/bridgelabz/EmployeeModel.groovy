@@ -1,9 +1,7 @@
 package com.bridgelabz
 
-import grails.rest.Resource
 import java.time.LocalDate
 
-@Resource(uri="/employee")
 class EmployeeModel {
 
     Long id
