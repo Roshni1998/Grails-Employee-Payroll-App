@@ -23,4 +23,9 @@ class EmployeeModel {
         startDate nullable: true
         note blank: false
     }
+
+    @Override
+    String toString() {
+        return super.toString()
+    }
 }

@@ -8,10 +8,9 @@
 <meta name="layout" content="main"/>
 
 <div class="form-content">
-
     <g:form class="form" controller="employee" action="update">
-%{--        <g:hiddenField name="id" value="${employee.id}"/>--}%
-%{--        <g:render template="form" model="[edit:'yes']"/>--}%
+        <g:hiddenField name="id" value="${employee.id}"/>
+        <g:render template="form" model="[edit:'yes']"/>
         <!-- Update-Reset-Cancel Button -->
         <div class="buttonParent">
             <g:link controller="employee" action="index" class="resetButton button cancelButton" ><g:message code="cancel"/></g:link>
